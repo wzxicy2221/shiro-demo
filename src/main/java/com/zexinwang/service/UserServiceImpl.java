@@ -23,15 +23,7 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public List<User> listUser() throws Exception {
-        int a = 1;
         Example example = new Example(User.class);
-        User user = new User();
-        user.setLocked(true);
-        a = a + 1;
-        userMapper.updateByExampleSelective(user, example);
-//        if (a == 2) {
-//            throw new RuntimeException("aaa");
-//        }
         return userMapper.selectByExample(example);
     }
 }
