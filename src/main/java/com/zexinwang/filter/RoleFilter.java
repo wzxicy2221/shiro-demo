@@ -20,7 +20,7 @@ public class RoleFilter extends AccessControlFilter {
             throws Exception {
         Subject subject = SecurityUtils.getSubject();
         // admin或user角色能通过角色校验
-        if (subject.hasRole("admin") || subject.hasRole("user")) {
+        if (subject.hasRole("admin") ||  subject.hasRole("user")) {
             return true;
         }
         return false;

@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254f07a7-d78c-4117-af7a-d29765a57e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/OtherController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/TeacherController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/TeacherRoleFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/realm/UserRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/shiro/spring/SpringCacheManagerWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-cache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adminadd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admindelete.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adminhomepage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/noauth.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teacherhomepage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/useradd.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userdelete.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userhomepage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userupdate.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/HelloWorldController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zexinwang/controller/HelloWorldController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/com/zexinwang/controller/HelloWorldController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/lib/druid-1.0.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/view/hello.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/zexinwang/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/zexinwang/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/zexinwang/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/zexinwang/service/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project.war" afterPath="$PROJECT_DIR$/target/shiro-demo-project.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/com/zexinwang/service/UserService.class" afterPath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/com/zexinwang/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/com/zexinwang/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/com/zexinwang/service/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/shiro_demo_project_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/shiro_demo_project_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-demo-project.iml" afterPath="$PROJECT_DIR$/shiro-demo-project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zexinwang/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zexinwang/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-context.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/spring/spring-context.xml" afterPath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/spring/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/shiro-demo-project/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hello.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java" />
     </list>
     <ignored path="shiro-demo-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PermissionFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PermissionFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="299">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RoleFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -234,9 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userupdate.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/userdelete.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/TeacherRoleFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-context.xml" />
@@ -246,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/realm/UserRealm.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache/ehcache.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java" />
       </list>
     </option>
   </component>
@@ -1129,12 +1068,12 @@
       <workItem from="1501489428393" duration="12337000" />
       <workItem from="1501559003790" duration="1225000" />
       <workItem from="1501562412125" duration="16854000" />
-      <workItem from="1501659671399" duration="7512000" />
+      <workItem from="1501659671399" duration="7624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49161000" />
+    <option name="totallyTimeSpent" value="49273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1930" height="1047" extended-state="0" />
@@ -1646,6 +1585,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1656,16 +1603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zexinwang/filter/RoleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zexinwang/filter/PermissionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding />
         </state>
       </provider>
