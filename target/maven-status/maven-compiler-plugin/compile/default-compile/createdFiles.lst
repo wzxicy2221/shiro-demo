@@ -1,0 +1,13 @@
+com\zexinwang\service\UserService.class
+com\zexinwang\service\UserServiceImpl.class
+com\zexinwang\dao\RoleMapper.class
+com\zexinwang\dao\ResourceMapper.class
+com\zexinwang\dao\OrganizationMapper.class
+com\zexinwang\dao\UserMapper.class
+com\zexinwang\dao\BaseMapper.class
+com\zexinwang\entity\Resource.class
+com\zexinwang\entity\User.class
+com\zexinwang\realm\UserRealm.class
+com\zexinwang\controller\IndexController.class
+com\zexinwang\entity\Organization.class
+com\zexinwang\entity\Role.class
