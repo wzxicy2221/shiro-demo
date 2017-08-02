@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1487925147737" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="E:/ucmed/codestandard/yilian-formatter-20170303.xml" />
+        <option name="selectedJavaProfile" value="ucmed" />
+      </Settings>
+    </option>
+  </component>
+</project>
