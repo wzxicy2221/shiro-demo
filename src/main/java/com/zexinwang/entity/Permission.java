@@ -2,8 +2,9 @@ package com.zexinwang.entity;
 
 import java.io.Serializable;
 import javax.persistence.*;
-@Table(name = "shiro_role")
-public class Role implements Serializable {
+
+@Table(name = "shiro_permission")
+public class Permission implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -11,11 +12,9 @@ public class Role implements Serializable {
     @Column(name = "user_id")
     private Long userId;
 
-    private String role;
+    private String permission;
 
     private String description;
-
-    private Boolean available;
 
     private static final long serialVersionUID = 1L;
 
@@ -48,17 +47,17 @@ public class Role implements Serializable {
     }
 
     /**
-     * @return role
+     * @return permission
      */
-    public String getRole() {
-        return role;
+    public String getPermission() {
+        return permission;
     }
 
     /**
-     * @param role
+     * @param permission
      */
-    public void setRole(String role) {
-        this.role = role;
+    public void setPermission(String permission) {
+        this.permission = permission;
     }
 
     /**
@@ -73,19 +72,5 @@ public class Role implements Serializable {
      */
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    /**
-     * @return available
-     */
-    public Boolean getAvailable() {
-        return available;
-    }
-
-    /**
-     * @param available
-     */
-    public void setAvailable(Boolean available) {
-        this.available = available;
     }
 }

@@ -47,19 +47,15 @@
             targetProject="${targetJavaProject}" type="XMLMAPPER" />
 
 
-        <table tableName="sys_user" domainObjectName="User">
+        <table tableName="user" domainObjectName="User">
             <generatedKey column="id"
                           sqlStatement="Mysql" identity="true" type="post" />
         </table>
-        <table tableName="sys_role" domainObjectName="Role">
+        <table tableName="role" domainObjectName="Role">
             <generatedKey column="id"
                           sqlStatement="Mysql" identity="true" type="post" />
         </table>
-        <table tableName="sys_resource" domainObjectName="Resource">
-            <generatedKey column="id"
-                          sqlStatement="Mysql" identity="true" type="post" />
-        </table>
-        <table tableName="sys_organization" domainObjectName="Organization">
+        <table tableName="permission" domainObjectName="Permission">
             <generatedKey column="id"
                           sqlStatement="Mysql" identity="true" type="post" />
         </table>

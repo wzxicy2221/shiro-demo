@@ -3,23 +3,15 @@ package com.zexinwang.entity;
 import java.io.Serializable;
 import javax.persistence.*;
 
-@Table(name = "sys_user")
+@Table(name = "shiro_user")
 public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "organization_id")
-    private Long organizationId;
-
     private String username;
 
     private String password;
-
-    private String salt;
-
-    @Column(name = "role_ids")
-    private String roleIds;
 
     private Boolean locked;
 
@@ -37,20 +29,6 @@ public class User implements Serializable {
      */
     public void setId(Long id) {
         this.id = id;
-    }
-
-    /**
-     * @return organization_id
-     */
-    public Long getOrganizationId() {
-        return organizationId;
-    }
-
-    /**
-     * @param organizationId
-     */
-    public void setOrganizationId(Long organizationId) {
-        this.organizationId = organizationId;
     }
 
     /**
@@ -79,34 +57,6 @@ public class User implements Serializable {
      */
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    /**
-     * @return salt
-     */
-    public String getSalt() {
-        return salt;
-    }
-
-    /**
-     * @param salt
-     */
-    public void setSalt(String salt) {
-        this.salt = salt;
-    }
-
-    /**
-     * @return role_ids
-     */
-    public String getRoleIds() {
-        return roleIds;
-    }
-
-    /**
-     * @param roleIds
-     */
-    public void setRoleIds(String roleIds) {
-        this.roleIds = roleIds;
     }
 
     /**
