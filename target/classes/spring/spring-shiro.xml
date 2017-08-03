@@ -84,10 +84,10 @@
         <property name="cookie" ref="rememberMeCookie"/>
     </bean>
 
-    <bean id="firstSuccess" class="org.apache.shiro.authc.pam.FirstSuccessfulStrategy"/>
+    <!--<bean id="firstSuccess" class="org.apache.shiro.authc.pam.FirstSuccessfulStrategy"/>
     <bean id="modularRealmAuthenticator" class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">
         <property name="authenticationStrategy" ref="firstSuccess"/>
-    </bean>
+    </bean>-->
 
     <!-- 安全管理器 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
@@ -98,7 +98,6 @@
                 <ref bean="testRealm"/>
             </list>
         </property>
-        <property name="authenticator" ref="modularRealmAuthenticator" />
         <property name="sessionManager" ref="sessionManager"/>
         <property name="rememberMeManager" ref="rememberMeManager"/>
         <!--<property name="cacheManager" ref="cacheManager" />-->
