@@ -89,18 +89,30 @@
     <!-- 认证器 -->
     <bean id="modularRealmAuthenticator" class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">
         <property name="authenticationStrategy" ref="firstSuccess"/>
+<<<<<<< HEAD
     </bean>
 
     <!-- 安全管理器 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <!--<property name="realm" ref="userRealm" />-->
         <!-- 设置realm -->
+=======
+>>>>>>> 9b5e8ec3d2532cf455799a54a584373c0aabe501
         <property name="realms">
             <list>
                 <ref bean="userRealm"/>
                 <ref bean="testRealm"/>
             </list>
         </property>
+<<<<<<< HEAD
+=======
+    </bean>
+
+    <!-- 安全管理器 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!--<property name="realm" ref="userRealm" />-->
+        <property name="authenticator" ref="modularRealmAuthenticator"/>
+>>>>>>> 9b5e8ec3d2532cf455799a54a584373c0aabe501
         <property name="sessionManager" ref="sessionManager"/>
         <property name="rememberMeManager" ref="rememberMeManager"/>
         <!--<property name="cacheManager" ref="cacheManager" />-->
