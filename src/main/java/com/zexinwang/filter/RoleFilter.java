@@ -1,6 +1,7 @@
 package com.zexinwang.filter;
 
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.apache.shiro.web.util.WebUtils;
@@ -19,6 +20,7 @@ public class RoleFilter extends AccessControlFilter {
             ServletResponse response, Object mappedValue)
             throws Exception {
         Subject subject = SecurityUtils.getSubject();
+        Session session = subject.getSession();
         // admin或user角色能通过角色校验
         if (subject.hasRole("admin") ||  subject.hasRole("user")) {
             return true;

@@ -43,7 +43,7 @@
     <bean id="sessionValidationScheduler"
           class="org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler">
         <!-- 间隔多少时间验证会话，单位毫秒 -->
-        <property name="interval" value="1800000" />
+        <property name="interval" value="900000" />
         <property name="sessionManager" ref="sessionManager" />
     </bean>
 
@@ -84,16 +84,13 @@
         <property name="cookie" ref="rememberMeCookie"/>
     </bean>
 
+    <!-- 认证策略 -->
     <bean id="firstSuccess" class="org.apache.shiro.authc.pam.FirstSuccessfulStrategy"/>
+    <!-- 认证器 -->
     <bean id="modularRealmAuthenticator" class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">
         <property name="authenticationStrategy" ref="firstSuccess"/>
-        <property name="realms">
-            <list>
-                <ref bean="userRealm"/>
-                <ref bean="testRealm"/>
-            </list>
-        </property>
     </bean>
+
     <!-- 权限注解 -->
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
         <property name="securityManager" ref="securityManager"/>
@@ -103,6 +100,13 @@
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <!--<property name="realm" ref="userRealm" />-->
         <property name="authenticator" ref="modularRealmAuthenticator"/>
+        <!-- 设置realm -->
+        <property name="realms">
+            <list>
+                <ref bean="userRealm"/>
+                <ref bean="testRealm"/>
+            </list>
+        </property>
         <property name="sessionManager" ref="sessionManager"/>
         <property name="rememberMeManager" ref="rememberMeManager"/>
         <!--<property name="cacheManager" ref="cacheManager" />-->

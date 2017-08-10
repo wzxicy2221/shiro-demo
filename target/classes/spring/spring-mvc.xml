@@ -11,11 +11,30 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.zexinwang" >
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" />
+    <context:component-scan base-package="com.zexinwang">
+        <context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Service"/>
     </context:component-scan>
+
+    <!-- 开启shiro权限注解时需要配置 -->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="org.apache.shiro.authz.UnauthorizedException">
+                    /noauth
+                </prop>
+            </props>
+        </property>
+    </bean>
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor"/>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
     <!-- 默认的视图解析器-->
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/view/" p:suffix=".jsp"/>
 
     <bean id="mappingJacksonHttpMessageConverter"
